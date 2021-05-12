@@ -1,0 +1,92 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+/* Global style*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  background: rgb(206, 241, 140);
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration:none;
+  font-size: 2rem;
+}
+h2{
+  font-size:3rem;
+}
+h4{
+  font-size: 3rem ;
+}
+h5{
+  font-size:1rem;
+}
+
+/* Navigation */
+nav{
+  background:rgb(39, 231, 222);
+  height: 3.5rem;
+  display: grid;
+  align-items:center;
+  box-shadow: 2px;
+}
+.nav-center{
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 5px;
+  margin-right: 1rem;
+}
+nav a:hover {
+  color: lightpink;
+}
+
+/* Container*/
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2{
+  background-color:rgb(196, 151, 238);
+  padding: 1rem;
+  border-radius: 4rem;
+  margin-bottom:2.5rem;
+}
+.btn {
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 10px 8px;
+}
+.btn:hover{
+  color:rgb(74, 28, 241);
+  background-color: rgb(240, 220, 45);
+}
